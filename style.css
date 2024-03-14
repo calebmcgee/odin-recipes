@@ -1,0 +1,60 @@
+* {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.recipes {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.main-li {
+    display: inline-block;
+
+}
+
+a {
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 22px;
+}
+.description h2 {
+    color:red;
+}
+
+.description p {
+    text-align: center;
+}
+
+.ingredients {
+    color:blue;
+}
+
+.steps {
+    color:green;
+}
+
+ul {
+    
+}
+
+
+
+img {
+    display: block;
+    margin: auto;
+}
