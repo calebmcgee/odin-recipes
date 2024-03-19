@@ -12,23 +12,27 @@ a {
 /* homepage */
 .main-body {
    padding:20px;
+   background-color: azure;
 }
-nav {
+.recipe-nav {
     margin: 24px;
     padding:20px;
     height: 500px;
     border: 1px black solid;
 }
 
-nav h2 {
+.recipe-nav h2 {
     text-align: center;
     background-color: aliceblue;
     font-size: 24px;
     padding: 20px;
 }
 .title {
+    display: block;
     font-size: 48px;
+    width:fit-content;
     margin: 20px;
+    padding: 15px 25px;
 }
 .recipe-list {
     display: flex;
@@ -76,6 +80,14 @@ nav h2 {
     width: 500px;
 }
 
+.top{
+    background-color: aliceblue;
+
+}
+.home-icon {
+    height:80px;
+    width:80px;
+}
 /* description */
 .description {
     padding: 20px;
