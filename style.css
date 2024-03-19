@@ -69,13 +69,19 @@ nav h2 {
     width: 500px;
 }
 
+/* description */
+
+/* ingredients */
+
 .ingredients {
     border: 1px solid black;
     padding: 20px;
+    margin: 20px;;
 }
 
 .ingredients h2 {
     font-size:24px;
+
 }
 .ingredients-list {
     list-style-type: none;
@@ -94,7 +100,33 @@ nav h2 {
 
 }
 
+/* steps */
 
+.steps {
+    border: 1px solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+.steps h2 {
+    font-size:24px;
+}
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: start;
+
+}
+
+.steps-list li {
+    background-color: aliceblue;
+    padding: 16px 8px;
+    margin: 8px auto;
+    width: 600px;
+
+}
 
 
 
